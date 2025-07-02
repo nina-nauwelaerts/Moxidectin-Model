@@ -994,74 +994,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_10mg_solution\n2025-05-16 16:44"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Korth-Bradley 2012_PO_10mg_solution|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_10mg_solution\n2025-05-16 16:44"
         }
       ]
     },
@@ -1256,74 +1188,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nCotreau 2003_PO_3mg_solution_fasted\n2025-05-16 16:46"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Cotreau 2003_PO_3mg_solution_fasted|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nCotreau 2003_PO_3mg_solution_fasted\n2025-05-16 16:46"
         }
       ]
     },
@@ -1515,74 +1379,6 @@
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
             "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nCotreau 2003_PO_9mg_solution_fasted\n2025-05-21 16:46"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Cotreau 2003_PO_9mg_solution_fasted|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nCotreau 2003_PO_9mg_solution_fasted\n2025-05-21 16:46"
@@ -2177,74 +1973,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nCotreau 2003_PO_36mg_solution_fed\n2025-05-16 16:46"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Cotreau 2003_PO_36mg_solution_fed|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nCotreau 2003_PO_36mg_solution_fed\n2025-05-16 16:46"
         }
       ]
     },
@@ -2448,74 +2176,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nCotreau 2003_PO_9mg_solution_fed\n2025-05-16 16:47"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Cotreau 2003_PO_9mg_solution_fed|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nCotreau 2003_PO_9mg_solution_fed\n2025-05-16 16:47"
         }
       ]
     },
@@ -2714,72 +2374,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKinrade 2018_PO_4 mg\n2025-05-16 16:48"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kinrade 2018_PO_4 mg|Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKinrade 2018_PO_4 mg\n2025-05-16 16:48"
         }
       ]
     },
@@ -2975,72 +2569,6 @@
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
             "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKinrade 2018_PO_8 mg\n2025-05-16 16:48"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kinrade 2018_PO_8 mg|Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKinrade 2018_PO_8 mg\n2025-05-16 16:48"
@@ -3440,72 +2968,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKinrade 2018_PO_24 mg\n2025-05-16 16:47"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kinrade 2018_PO_24 mg|Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKinrade 2018_PO_24 mg\n2025-05-16 16:47"
         }
       ]
     },
@@ -3701,72 +3163,6 @@
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
             "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKinrade 2018_PO_36 mg\n2025-05-16 16:47"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µmol/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Kinrade 2018_PO_36 mg|Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKinrade 2018_PO_36 mg\n2025-05-16 16:47"
@@ -3968,74 +3364,6 @@
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
             "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_8mg_fasted\n2025-05-16 16:44"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Korth-Bradley 2012_PO_8mg_fasted|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_8mg_fasted\n2025-05-16 16:44"
@@ -4248,74 +3576,6 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_8mg_fed\n2025-05-16 16:44"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Korth-Bradley 2012_PO_8mg_fed|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_8mg_fed\n2025-05-16 16:44"
         }
       ]
     },
@@ -4514,74 +3774,6 @@
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
             "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_10mg_tablet\n2025-05-16 16:44"
-        },
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Moxidectin-Lumen-Fraction of oral drug mass absorbed into mucosa",
-              "X": "Time",
-              "Y": "Korth-Bradley 2012_PO_10mg_tablet|Organism|Lumen|Moxidectin|Fraction of oral drug mass absorbed into mucosa",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF00FF",
-                "LegendIndex": 5,
-                "LineStyle": "Dash"
-              }
-            }
-          ],
-          "Name": "Korth-Bradley 2012_PO_10mg_solution_Fa",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "Bottom",
-            "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Moxidectin\nKorth-Bradley 2012_PO_10mg_tablet\n2025-05-16 16:44"
@@ -7413,7 +6605,7 @@
             0.403026253
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
