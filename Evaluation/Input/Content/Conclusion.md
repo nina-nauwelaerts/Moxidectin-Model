@@ -1,4 +1,3 @@
-The herein presented PBPK model adequately describes the pharmacokinetics of COMPOUND in adults.
+The herein presented PBPK model adequately describes the pharmacokinetics of moxidectin in adults.
 
-In particular, it applies quantitative ... Thus, the model is fit for purpose to be applied for...
-
+In particular, it applies metabolism and elimination via biliary clearance and CYP3A4-mediated metabolism. The PBPK model is verified for the first day(s) after administration.Thus, the model is fit for purpose to be applied for predictions of AUC and Cmax (e.g. in application such as tuberculosis), but furher refinement is suggested for evaluation of the terminal half-life.
