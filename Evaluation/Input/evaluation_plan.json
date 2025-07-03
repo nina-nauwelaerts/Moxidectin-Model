@@ -31,7 +31,7 @@
                 {
                     "Type": "X",
                     "Dimension": "Time",
-                    "Unit": "h",
+                    "Unit": "day(s)",
                     "GridLines": false,
                     "Scaling": "Linear"
                 },
