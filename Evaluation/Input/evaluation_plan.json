@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Moxidectin",
@@ -8,7 +8,13 @@
             "SimulationParameters": []
         }
     ],
-    "ObservedDataSets": [],
+    "ObservedDataSets": [
+        {
+            "Id": "PK-Parameter",
+            "Path": "https://raw.githubusercontent.com/nina-nauwelaerts/Database-for-observed-data/refs/heads/master/PK-Parameter.csv",
+            "Type": "PKRatio"
+        }    
+    ],
     "Plots": {
         "AxesSettings": {
             "GOFMergedPlotsPredictedVsObserved": [
@@ -94,8 +100,8 @@
             "PKRatioPlots": [
                 {
                     "Type": "X",
-                    "Dimension": "Age",
-                    "Unit": "year(s)",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
                     "GridLines": false,
                     "Scaling": "Linear"
                 },
@@ -220,45 +226,61 @@
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S101_Moxidectin_median_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Solution",
                                 "Color": "#FF0000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model building)",
-                        "Symbol": "Circle",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Korth-Bradley 2012_PO_10mg_tablet",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S101_Moxidectin_median_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Tablet",
                                 "Color": "#FF0000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model building)",
-                        "Symbol": "Circle",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Korth-Bradley 2012_PO_8mg_fasted",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1005_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Fasted",
                                 "Color": "#FF0000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model building)",
-                        "Symbol": "Circle",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Korth-Bradley 2012_PO_8mg_fed",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1005_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Fed",
                                 "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Moxidectin (model building) 24h only",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Korth-Bradley 2012_PO_10mg_solution",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S101_Moxidectin_median_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Solution_24h",
+                                "Color": "#00A000"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Korth-Bradley 2012_PO_10mg_tablet",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S101_Moxidectin_median_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Tablet_24h",
+                                "Color": "#00A000"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Korth-Bradley 2012_PO_8mg_fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1005_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Fasted_24h",
+                                "Color": "#00A000"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Korth-Bradley 2012_PO_8mg_fed",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1005_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_10 mg_PO_Fed_24h",
+                                "Color": "#00A000"
                             }
                         ]
                     },
@@ -272,136 +294,159 @@
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_18_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Cotreau 2003_PO_36mg_solution_fasted",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_36_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Cotreau 2003_PO_36mg_solution_fed",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_36_PO_fed",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Cotreau 2003_PO_3mg_solution_fasted",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_3_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Cotreau 2003_PO_9mg_solution_fasted",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_9_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Cotreau 2003_PO_9mg_solution_fed",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_9_PO_fed",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Kinrade 2018_PO_16 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_16_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Kinrade 2018_PO_24 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_24_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Kinrade 2018_PO_36 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_36_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Kinrade 2018_PO_4 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_4_PO_fasted",
                                 "Color": "#000000"
-                            }
-                        ]
-                    },
-                    {
-                        "Caption": "Moxidectin (model verification)",
-                        "Symbol": "Square",
-                        "OutputMappings": [
+                            },
                             {
                                 "Project": "Moxidectin",
                                 "Simulation": "Kinrade 2018_PO_8 mg",
                                 "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_8_PO_fasted",
                                 "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Moxidectin (model verification) 24h only",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Cotreau 2003_PO_18mg_solution_fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_18_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Cotreau 2003_PO_36mg_solution_fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_36_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Cotreau 2003_PO_36mg_solution_fed",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_36_PO_fed_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Cotreau 2003_PO_3mg_solution_fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_3_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Cotreau 2003_PO_9mg_solution_fasted",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_9_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Cotreau 2003_PO_9mg_solution_fed",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Cotreau 2003_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_9_PO_fed_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Kinrade 2018_PO_16 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_16_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Kinrade 2018_PO_24 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_24_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Kinrade 2018_PO_36 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_36_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Kinrade 2018_PO_4 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_4_PO_fasted_24h",
+                                "Color": "#0057B7"
+                            },
+                            {
+                                "Project": "Moxidectin",
+                                "Simulation": "Kinrade 2018_PO_8 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Moxidectin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "S1008_Moxidectin_mean_Human_PeripheralVenousBlood_Plasma_8_PO_fasted_24h",
+                                "Color": "#0057B7"
                             }
                         ]
                     }

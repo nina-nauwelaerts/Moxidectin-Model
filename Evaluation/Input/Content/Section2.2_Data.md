@@ -27,6 +27,8 @@ The following studies were used for model building (training data):
 | [Korth-Bradley 2012a](#main-references) | Healthy Subjects with a single oral dose of 10 mg solution in fasted or fed conditions           |
 | [Korth-Bradley 2012b](#main-references) | Healthy Subjects with a single oral dose of 10 mg solution or tablet           |
 
+Data for [Korth-Bradley 2012a](#main-references) and [Korth-Bradley 2012b](#main-references) was extracted from the study reports S101 and S1005, respectively. 
+
 #### Model Verification <a id="model-verification"></a>
 
 The following studies were used for model verification:
@@ -36,3 +38,4 @@ The following studies were used for model verification:
 | [Cotreau 2003](#main-references) | Healthy Subjects with a single oral dose of 3 mg, 9 mg, 18 mg or 36 mg in fasted or fed conditions|
 | [Kinrade 2018](#main-references) | Healthy Subjects with a single oral dose of 4 mg, 8 mg, 16 mg, 24 mg, 36 mg in fasted conditions      |
 
+Data for [Kinrade 2018](#main-references) was extracted from the study report S1008.

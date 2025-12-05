@@ -4,7 +4,7 @@ The model parameter `Specific intestinal permeability` was calculated by default
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-Fraction unbound was reported approximately 0.00078 ([Wood 2024](#main-references), see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)). `Lipophilicity` was optimized within the range of measured values (4.30-6.00) to find a best match of simulated to observed moxidectin PK profile data. After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim®, observed clinical data was best described by choosing the partition coefficient calculation by `PK-Sim Standard` and cellular permeability calculation by `PK-Sim Standard` for moxidectin.
+Fraction unbound was reported approximately 0.00078 ([Wood 2024](#main-references), see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)). `Lipophilicity` was optimized within the range of measured values (4.30-6.00) to find a best match of simulated to observed moxidectin PK profile data ([Korth-Bradley 2012a, Korth-Bradley 2012b](#main-references)). After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim®, observed clinical data was best described by choosing the partition coefficient calculation by `PK-Sim Standard` and cellular permeability calculation by `PK-Sim Standard` for moxidectin.
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 

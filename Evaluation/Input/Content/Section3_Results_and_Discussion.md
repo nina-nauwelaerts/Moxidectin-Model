@@ -8,7 +8,7 @@ The model was evaluated covering data from studies including in particular ([Kor
 
 The model quantifies metabolism via biliary clearance and CYP3A4. 
 
-The PBPK model was able to capture the PK of moxidectin over the first days, but not the late phase. As the standard dosing regimen for tuberculosis is once daily, the model is fit for purpose to evaluate moxidectin in treatment of tuberculosis. Nevertheless, further model refinement is required to describe the late phase.
+The PBPK model was able to capture the PK of moxidectin over the first days, but not the late phase as indicated by the GMFE. As the standard dosing regimen for tuberculosis is once daily (i.e., based on dosing regimens of other tuberculosis medicines, since moxidectin is not approved for tuberculosis yet), the model is fit for purpose to evaluate moxidectin in treatment of tuberculosis. Nevertheless, further model refinement is required to describe the late phase.
 
 The next sections show:
 
