@@ -6,7 +6,7 @@ First, a base mean model was built using clinical Phase I data including single 
 
 Unknown parameters (see below) were identified using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility. 
 
-Moxidectin is absorbed relatively quick. For simplicity, a dissolved formulation was applied for both solution and tablet formulations.
+Moxidectin is absorbed relatively quickly (Tmax after 3-4h) ([Drugbank](#main-references)). For simplicity, a dissolved formulation was applied for both solution and tablet formulations.
 
 The model was then verified by simulating ([Cotreau 2003, Kinrade 2018](#main-references)):
 
