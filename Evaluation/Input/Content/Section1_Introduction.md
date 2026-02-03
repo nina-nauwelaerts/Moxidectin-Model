@@ -4,6 +4,6 @@ Moxidectin absorption reaches Tmax after 3-4h and shows a long half-life in huma
 
 The herein presented model building and evaluation report evaluates the performance of the PBPK model for moxidectin in (healthy) adults. The aim of this work was to establish a model that can be used to evaluate moxidectin use in tuberculosis.
 
-The presented moxidectin PBPK model as well as the respective evaluation plan and evaluation report are provided open-source ([https://github.com/Open-Systems-Pharmacology/Moxidectin-Model](https://github.com/Open-Systems-Pharmacology/COMPOUND-Model)).
+The presented moxidectin PBPK model as well as the respective evaluation plan and evaluation report are provided open-source (https://github.com/Open-Systems-Pharmacology/Moxidectin-Model).
 
  
